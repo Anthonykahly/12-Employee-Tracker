@@ -1,0 +1,27 @@
+{
+  "name": "12-employee-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tracker.js",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^8.0.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node tracker.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anthonykahly/12-Employee-Tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anthonykahly/12-Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/Anthonykahly/12-Employee-Tracker#readme"
+}
