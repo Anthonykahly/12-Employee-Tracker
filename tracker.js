@@ -12,12 +12,25 @@ const connection = mysql.createConnection({
     password: "root",
     database: "employeetracker"
 });
-// error throw
 
-// put choices for inquirer
-
-// add functions
-
-// insert user input
-
-// user selection
+// If connection fails throw an error
+connection.connect((err) => {
+    if (err) throw err;
+    mainMenu();
+});
+// Inquirer prompts user to choose from "choices array"
+const mainMenu = () => {
+    inquirer.prompt({
+        type: "list",
+        choices: [
+            "View departments",
+            "View roles",
+            "View employees",
+            "Add department",
+            "Add role",
+            "Add employee",
+            "Update employee role",
+        ],
+        message: "Choose what you need to do:",
+        name: "choices"
+    }) 
