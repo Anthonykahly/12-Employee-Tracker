@@ -26,29 +26,29 @@ CREATE TABLE employee (
   FOREIGN KEY (manager_id) REFERENCES employee(id));
 
 INSERT INTO department (name)
-VALUE ("Sales");
+VALUE ("Administration");
 INSERT INTO department (name)
-VALUE ("Engineering");
+VALUE ("Services");
 INSERT INTO department (name)
-VALUE ("Finance");
+VALUE ("Development");
 INSERT INTO department (name)
-VALUE ("Legal");
+VALUE ("Procurement");
 
 
 INSERT INTO role (title, salary, department_id)
-VALUE ("Lead Engineer", 175000, 1);
+VALUE ("Representative", 170000, 1);
 INSERT INTO role (title, salary, department_id)
-VALUE ("Legal Team Lead", 200000, 3);
+VALUE ("Analyst", 250000, 3);
 INSERT INTO role (title, salary, department_id)
-VALUE ("Accountant", 95000, 4);
+VALUE ("Specialist", 125000, 4);
 INSERT INTO role (title, salary, department_id)
-VALUE ("Sales Lead", 80000, 2);
+VALUE ("Coordinator", 85000, 2);
 INSERT INTO role (title, salary, department_id)
-VALUE ("Salesperson", 55000,2 );
+VALUE ("Generalist", 60000,2 );
 INSERT INTO role (title, salary, department_id)
-VALUE ("Software Engineer", 100000, 1);
+VALUE ("Consultant", 150000, 1);
 INSERT INTO role (title, salary, department_id)
-VALUE ("Lawyer", 120000, 3);
+VALUE ("Technician", 125000, 3);
 
 INSERT INTO employee (first_name, last_name, manager_id, role_id)
 VALUE ("Rachel","Kahly",null,5);
