@@ -7,9 +7,9 @@ const inquirer = require("inquirer");
 const connection = mysql.createConnection({
   host: "localhost",
   port: 3306,
-  user: "root",
+  user: "akahly",
   // Change this password to match the password in your DB (Yours may not be root)
-  password: "root",
+  password: "password",
   database: "employeetracker",
 });
 

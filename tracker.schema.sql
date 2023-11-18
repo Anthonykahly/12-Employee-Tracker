@@ -51,11 +51,11 @@ INSERT INTO role (title, salary, department_id)
 VALUE ("Lawyer", 120000, 3);
 
 INSERT INTO employee (first_name, last_name, manager_id, role_id)
-VALUE ("Regina","Freed",null,5);
+VALUE ("Rachel","Kahly",null,5);
 INSERT INTO employee (first_name, last_name, manager_id, role_id)
-VALUE ("Troy", "Freed", 1, 6);
+VALUE ("Paul", "Wall", 1, 6);
 INSERT INTO employee (first_name, last_name, manager_id, role_id)
-VALUE ("Justin", "Gnatiuk", 3, 7);
+VALUE ("Steven", "Smith", 3, 7);
 
 
 SELECT * FROM department;
