@@ -14,7 +14,7 @@
 
 ## Screenshots:
 
-![](assets/images/appscreenshot.png)
+![](assets/appimage.png)
 
 ## Description:
 
